@@ -1,10 +1,8 @@
 package jbc.oct21.ExtendsType;
 
-import jbc.oct21.Interface.UserInput;
+import jbc.oct21.Interface.UserInputable;
 
-import java.io.InputStream;
-
-public abstract class ExtendsType <T> implements UserInput<T> {
+public abstract class ExtendsType <T> implements UserInputable<T> {
     private T value;
 
     public ExtendsType() {

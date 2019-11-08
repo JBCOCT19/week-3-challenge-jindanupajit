@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5912c0-8b9b-496b-ae49-92cc90ce900b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/EducationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/EducationBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ExperienceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/ExperienceBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/ResumeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/SkillBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/SkillBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/model/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInputable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/RoboResumeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/RoboResumeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/EducationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/builder/EducationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ExperienceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/builder/ExperienceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/builder/ResumeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/SkillBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/builder/SkillBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/ComplexDegreeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/DegreeTypeDatabase.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -80,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573135320872</updated>
       <workItem from="1573135329362" duration="2462000" />
-      <workItem from="1573180720823" duration="758000" />
+      <workItem from="1573180720823" duration="3879000" />
     </task>
     <servers />
   </component>
