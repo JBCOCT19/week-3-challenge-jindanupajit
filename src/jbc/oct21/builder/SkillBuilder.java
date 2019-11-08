@@ -52,12 +52,12 @@ public class SkillBuilder extends Builder {
         YesNo askUserYesOrNo = new YesNo();
 
             SkillName skillName = new SkillName();
-            skillName.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, skillName);
 
             this.set(skillName);
 
             SkillProficiency skillProficiency = new SkillProficiency();
-            skillProficiency.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, skillProficiency);
 
            this.set(skillProficiency);
 

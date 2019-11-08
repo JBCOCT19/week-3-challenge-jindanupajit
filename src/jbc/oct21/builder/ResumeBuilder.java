@@ -72,18 +72,18 @@ public class ResumeBuilder extends Builder {
 
 
         FirstName firstName = new FirstName();
-        firstName.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, firstName);
 
         MiddleName middleName = new MiddleName();
-        middleName.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, middleName);
 
         LastName lastName = new LastName();
-        lastName.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, lastName);
 
         this.set(new Name(firstName, middleName, lastName));
 
         Email email = new Email();
-        email.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, email);
 
         this.set(email);
 
@@ -93,7 +93,7 @@ public class ResumeBuilder extends Builder {
             educationBuilder.auto(printStream, inputStream);
             this.append(educationBuilder.toEducation());
             printStream.print("\nMore Education ");
-            askUserYesOrNo.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, askUserYesOrNo);
         } while(askUserYesOrNo.isYes());
 
         printStream.println("\nExperience Input\n");
@@ -102,7 +102,7 @@ public class ResumeBuilder extends Builder {
             experienceBuilder.auto(printStream, inputStream);
             this.append(experienceBuilder.toExperience());
             printStream.print("\nMore Experience ");
-            askUserYesOrNo.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, askUserYesOrNo);
         } while(askUserYesOrNo.isYes());
 
         printStream.println("\nSkill Input\n");
@@ -113,7 +113,7 @@ public class ResumeBuilder extends Builder {
 
             do {
                 printStream.print("\nMore Skill ");
-                askUserYesOrNo.retrieve(printStream, inputStream);
+                retrieve(printStream, inputStream, askUserYesOrNo);
                 if (askUserYesOrNo.isNo() && this.resume.getSkillCollection().size() < 3)
                     printStream.printf("\n * You need at least 3 skills, now %d!\n", this.resume.getSkillCollection().size());
                 else

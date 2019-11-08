@@ -55,19 +55,19 @@ public class EducationBuilder extends Builder {
     @Override
     public void auto(PrintStream printStream, InputStream inputStream) {
         DegreeType degreeType = new DegreeType();
-        degreeType.retrieve(printStream,inputStream);
+        retrieve(printStream,inputStream, degreeType);
         this.set(degreeType);
 
         Major major = new Major();
-        major.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, major);
         this.set(major);
 
         University university = new University();
-        university.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, university);
         this.set(university);
 
         GraduationYear graduationYear = new GraduationYear();
-        graduationYear.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, graduationYear);
         this.set(graduationYear);
     }
 }

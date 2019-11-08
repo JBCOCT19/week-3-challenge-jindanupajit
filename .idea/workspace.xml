@@ -2,36 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5912c0-8b9b-496b-ae49-92cc90ce900b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/DegreeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/FirstName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/LastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/MiddleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/SkillProficiency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/YesNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/RoboResumeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbc/oct21/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/EndDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/EndDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsTypeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/ExtendsTypeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/GraduationYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/GraduationYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/MonthYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/MonthYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/StartDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/StartDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/Year.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/ExtendsType/Year.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/Interface/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/Builder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/EducationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/EducationBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ExperienceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/ExperienceBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/ResumeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jbc/oct21/builder/SkillBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/builder/SkillBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/DegreeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/ComplexDegreeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/DegreeTypeDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/DegreeTypeDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/Education.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/ExperienceCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/ExperienceCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jbc/oct21/model/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbc/oct21/model/Skill.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573135320872</updated>
       <workItem from="1573135329362" duration="2462000" />
+      <workItem from="1573180720823" duration="758000" />
     </task>
     <servers />
   </component>
@@ -115,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

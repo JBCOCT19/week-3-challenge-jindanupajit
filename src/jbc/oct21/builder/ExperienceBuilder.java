@@ -60,28 +60,28 @@ public class ExperienceBuilder extends Builder {
         YesNo askUserYesOrNo = new YesNo();
 
         Title title = new Title();
-        title.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, title);
         this.set(title);
 
         Company company = new Company();
-        company.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, company);
         this.set(company);
 
         StartDate startDate = new StartDate();
-        startDate.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, startDate);
         this.set(startDate);
 
         EndDate endDate = new EndDate();
-        endDate.retrieve(printStream, inputStream);
+        retrieve(printStream, inputStream, endDate);
         this.set(endDate);
 
         do {
             JobDescription jobDescription = new JobDescription();
-            jobDescription.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, jobDescription);
             this.append(jobDescription);
 
             System.out.print("More Job Description ");
-            askUserYesOrNo.retrieve(printStream, inputStream);
+            retrieve(printStream, inputStream, askUserYesOrNo);
         } while(askUserYesOrNo.isYes());
     }
 }

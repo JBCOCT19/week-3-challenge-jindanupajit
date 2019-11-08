@@ -22,7 +22,7 @@ public class JobDescriptionCollection extends ArrayList<JobDescription> {
         StringBuilder sb = new StringBuilder();
 
         for (int index = 0; index < this.size(); index++) {
-            sb.append("- Duty ").append(index).append(", ").append(this.get(index))
+            sb.append("- Duty ").append(index+1).append(", ").append(this.get(index))
                     .append("\n");
         }
 

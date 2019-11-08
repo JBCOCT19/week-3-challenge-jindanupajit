@@ -30,38 +30,38 @@ public interface UserInput <T> {
         return sb.toString();
     }
 
-    // ****** The actual interaction with user happened here
-    // sub class should attempt to override other methods before this method
-    default T retrieve(PrintStream printStream, InputStream inputStream) {
-        Scanner scanner = new Scanner(inputStream);
-
-
-        String value = "";
-        do {
-            printStream.print(prompt());
-            try {
-                value = scanner.nextLine();
-                // Flush input buffer
-                while (inputStream.available() > 0) {
-                    inputStream.read();
-                }
-
-            } catch (IOException e) {
-                value = "";
-            } finally {
-                if (value.equalsIgnoreCase("abort")) {
-                    System.err.println("User abort");
-                    System.exit(1);
-                }
-            }
-
-            if (! isValidValue(value)) {
-                System.err.println(" * Not a valid input\n");
-            }
-        } while (! isValidValue(value));
-
-        return store(value);
-    }
+//    // ****** The actual interaction with user happened here
+//    // sub class should attempt to override other methods before this method
+//    default T retrieve(PrintStream printStream, InputStream inputStream) {
+//        Scanner scanner = new Scanner(inputStream);
+//
+//
+//        String value = "";
+//        do {
+//            printStream.print(prompt());
+//            try {
+//                value = scanner.nextLine();
+//                // Flush input buffer
+//                while (inputStream.available() > 0) {
+//                    inputStream.read();
+//                }
+//
+//            } catch (IOException e) {
+//                value = "";
+//            } finally {
+//                if (value.equalsIgnoreCase("abort")) {
+//                    System.err.println("User abort");
+//                    System.exit(1);
+//                }
+//            }
+//
+//            if (! isValidValue(value)) {
+//                System.err.println(" * Not a valid input\n");
+//            }
+//        } while (! isValidValue(value));
+//
+//        return store(value);
+//    }
 
     // will display as a prompt for user input
     default String typeName() {
